@@ -15,7 +15,7 @@ function displayCurrentWeather(city) {
 
     const currentWeatherContainer = document.querySelector(".current-weather");
     currentWeatherContainer.innerHTML = `
-      <div class="current-weather d-flex flex-wrap justify-content-evenly align-items-center">
+      <div class="current-weather text-center text-md-start d-flex flex-wrap justify-content-evenly align-items-center">
         <div class="px-3">
           <div class="fs-2 mb-2"><strong>${name}</strong></div>
           <div class="fs-4"><strong>${weekDay}</strong>, ${time}</div>
